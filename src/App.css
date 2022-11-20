@@ -9,8 +9,35 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
   }
+}
+
+.textInput {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 15px;
+  border-width: 0px;
+}
+
+.button {
+  margin-top: 8px;
+  padding: 6px;
+  font-size: 15px;
+  /* background-color: black;
+  color: cornsilk;
+  border: 1px solid #61dafb; */
+  border: 1px solid #ffffff;
+  padding-left: 26px;
+  padding-right: 26px;
+  border-radius: 10px;
+}
+.button:hover {
+  background-color: black;
+  color: cornsilk;
+  border: 1px solid #61dafb;
 }
 
 .App-header {
